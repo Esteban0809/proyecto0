@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Búsqueda Avanzada</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="google-image.html">Imágenes</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Búsqueda Avanzada 🔎</h1>
+
+      <form action="https://www.google.com/search" method="get">
+        <p>
+          <label>Con todas estas palabras:</label><br />
+          <input type="text" name="as_q" />
+        </p>
+        <p>
+          <label>Con esta frase exacta:</label><br />
+          <input type="text" name="as_epq" />
+        </p>
+        <p>
+          <label>Con alguna de estas palabras:</label><br />
+          <input type="text" name="as_oq" />
+        </p>
+        <p>
+          <label>Sin estas palabras:</label><br />
+          <input type="text" name="as_eq" />
+        </p>
+        <button type="submit">Buscar Avanzado</button>
+      </form>
+    </main>
+
+    <footer>
+      <p>© 2025 Esteban Ferreiro</p>
+    </footer>
+  </body>
+</html>
